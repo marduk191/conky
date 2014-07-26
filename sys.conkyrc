@@ -99,7 +99,7 @@ ${color grey50}${cpugraph cpu6 12,330 303030 467f77}
 ${color0}CPU Core 4: ${color grey50}${freq 7}MHz ${color0} Load: ${color grey50}${cpu cpu7}%${color0}${goto 260}Temp:${color grey50}${exec sensors | grep 'Core 3' | cut -c16-17}°C
 ${color grey50}${cpugraph cpu7 12,330 303030 467f77}
 ${color grey50}${cpugraph cpu8 12,330 303030 467f77}
-${color0}${font Liberation Mono:bold:size=10}Top Cpu${hr}
+${color0}${font Liberation Mono:bold:size=10}Top Cpu  ${hr}
 ${color grey50}${font Liberation Mono:bold:size=9}Name${goto 179}PID${goto 234}CPU%${goto 297}MEM
 ${top name 1}${goto 170}${top pid 1}${goto 220}${top cpu 1}${goto 285}${top mem_res 1}
 ${top name 2}${goto 170}${top pid 2}${goto 220}${top cpu 2}${goto 285}${top mem_res 2}
@@ -109,7 +109,7 @@ ${top name 5}${goto 170}${top pid 5}${goto 220}${top cpu 5}${goto 285}${top mem_
 ${top name 6}${goto 170}${top pid 6}${goto 220}${top cpu 6}${goto 285}${top mem_res 6}
 ${top name 7}${goto 170}${top pid 7}${goto 220}${top cpu 7}${goto 285}${top mem_res 7}
 ${top name 8}${goto 170}${top pid 8}${goto 220}${top cpu 8}${goto 285}${top mem_res 8}
-${color0}${font Liberation Mono:bold:size=10}      Top Mem${color grey50}${font Liberation Mono:bold:size=9}
+${color0}${font Liberation Mono:bold:size=10}Top Mem  ${hr}${color grey50}${font Liberation Mono:bold:size=9}
 ${top_mem name 1}${goto 170}${top_mem pid 1}${goto 220}${top_mem cpu 1}${goto 285}${top_mem mem_res 1}
 ${top_mem name 2}${goto 170}${top_mem pid 2}${goto 220}${top_mem cpu 2}${goto 285}${top_mem mem_res 2}
 ${top_mem name 3}${goto 170}${top_mem pid 3}${goto 220}${top_mem cpu 3}${goto 285}${top_mem mem_res 3}
@@ -127,5 +127,5 @@ ${color0}Dev500${color grey50}${goto 75}${fs_free /media/marduk191/b59ee394-ecc6
 
 #${color0}Adapter: ${color grey50}${execi 60 acpi -a | awk '{print $3}'}
 # ${color0}Time: ${color grey50}${execi 60 acpi | awk '{print $5}' | cut -c1-5 } ${execi 60 acpi | awk '{print $6, $7}'}
-${color0}NVidia GeForce 460 GPU${hr 2}
+${color0}NVidia GeForce 460 GPU  ${hr 2}
  ${color grey50}GPU:${nvidia gpufreq}Mhz   Memory:${nvidia memfreq}Mhz   Temperature:${nvidia temp}C
