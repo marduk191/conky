@@ -1,0 +1,5 @@
+#!/bin/bash
+conky -c ~/.conky/network.conkyrc &
+conky -c ~/.conky/weather.conkyrc &
+conky -c ~/.conky/info.conkyrc &
+conky -c ~/.conky/sys.conkyrc
