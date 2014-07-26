@@ -3,7 +3,7 @@
 <img src='example.png' width='300px'>
 
 ## Installation
--copy the .conky folder to ~/.conky.
+- copy the .conky folder to ~/.conky.
 
 ## Post Installation
 - set username and app password in gmail.pl.
@@ -15,11 +15,12 @@
 - more adjustments may be necessary based on your system.
 
 ## Dependencies
--Conky with nvidia plugin.
--ruby for weather underground.
--perl for gmail.
--bash for startup script (will work in sh).
+- Conky with nvidia plugin.
+- ruby for weather underground.
+- perl for gmail.
+- bash for startup script (will work in sh).
 
+## Script Setup
 
 Weather:  
   - api_key from http://www.wunderground.com/weather/api/
