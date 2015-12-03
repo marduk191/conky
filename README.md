@@ -1,7 +1,6 @@
 ## Designed on mint 17
 ## Conky
-<img src='example.png' width='300px'>
-
+![cover image](example.png)
 ## Installation
 - copy the .conky folder to ~/.conky.
 
